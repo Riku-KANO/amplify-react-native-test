@@ -1,0 +1,21 @@
+{
+  "version": "1",
+  "auth": {
+    "user_pool_id": "temp-pool-id",
+    "aws_region": "us-east-1",
+    "user_pool_client_id": "temp-client-id",
+    "identity_pool_id": "temp-identity-pool-id",
+    "mfa_methods": ["TOTP"],
+    "standard_required_attributes": ["email"],
+    "username_attributes": ["email"],
+    "user_verification_types": ["email"],
+    "mfa_configuration": "OPTIONAL",
+    "password_policy": {
+      "min_length": 8,
+      "require_lowercase": true,
+      "require_numbers": true,
+      "require_symbols": true,
+      "require_uppercase": true
+    }
+  }
+}

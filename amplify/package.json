@@ -1,0 +1,47 @@
+{
+  "name": "amplify-functions",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aws-amplify/backend": "^1.0.0",
+    "@aws-amplify/backend-cli": "^1.0.0",
+    "aws-cdk": "^2.0.0",
+    "aws-cdk-lib": "^2.0.0",
+    "constructs": "^10.0.0",
+    "esbuild": "^0.20.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@gorhom/bottom-sheet": "^5.1.6",
+    "@react-native-community/datetimepicker": "^8.4.2",
+    "@react-native-community/slider": "^4.5.7",
+    "@storybook/addon-ondevice-actions": "^9.0.18",
+    "@storybook/addon-ondevice-backgrounds": "^9.0.18",
+    "@storybook/addon-ondevice-controls": "^9.0.18",
+    "@storybook/react-native": "^9.0.18",
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "babel-loader": "^8.4.1",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-native": "^5.0.0",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.6.2",
+    "react-dom": "^19.0.0",
+    "react-native-svg": "^15.12.0",
+    "react-native-web": "^0.21.0",
+    "storybook": "^9.0.18",
+    "vitest": "^3.2.4"
+  },
+  "scripts": {
+    "storybook-generate": "sb-rn-get-stories"
+  }
+}

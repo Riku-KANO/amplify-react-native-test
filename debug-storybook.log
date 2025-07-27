@@ -1,0 +1,91 @@
+[16:30:31.612] [DEBUG] Extracting storybook data...
+[16:30:31.613] [DEBUG] Getting Storybook info...
+[16:30:31.614] [DEBUG] Loading main config...
+[16:30:31.685] [DEBUG] Getting stories paths...
+[16:30:31.703] [DEBUG] Getting package manager...
+[16:30:32.479] [DEBUG] Getting Storybook version...
+[16:30:32.479] [INFO] 🔎 checking possible migrations..
+[16:30:32.480] [DEBUG] Running eslintPlugin migration checks
+[16:30:32.484] [DEBUG] End of eslintPlugin migration checks
+[16:30:32.484] [INFO] 🔎 found a 'eslintPlugin' migration:
+[16:30:32.485] [INFO] automigrate-task-eslintPlugin-task-start: Automigration detected: eslintPlugin
+[16:30:32.485] [INFO] We'll install and configure the Storybook ESLint plugin for you.
+[16:30:32.499] [INFO] automigrate-task-eslintPlugin-task: ╭──────────────────────────────────────────────────────────────────────╮
+│                                                                      │
+│   We'll install and configure the Storybook ESLint plugin for you.   │
+│                                                                      │
+╰──────────────────────────────────────────────────────────────────────╯
+[16:30:41.118] [PROMPT] Do you want to run the 'eslintPlugin' migration on your project? {"choice":true}
+[16:30:41.118] [DEBUG] Adding dependencies: eslint-plugin-storybook@9.0.18
+[16:30:41.119] [DEBUG] Getting CLI versions from NPM for eslint-plugin-storybook...
+[16:30:41.714] [DEBUG] Detected flat config at /home/rick/projects/amplify-react-native-test/eslint.config.mjs
+[16:30:41.746] [INFO] ✅ ran eslintPlugin migration
+[16:30:41.746] [INFO] automigrate-task-eslintPlugin-task-success: Ran eslintPlugin migration
+[16:30:41.746] [DEBUG] Running addon-mdx-gfm-remove migration checks
+[16:30:41.747] [DEBUG] End of addon-mdx-gfm-remove migration checks
+[16:30:41.747] [DEBUG] Running addon-storysource-code-panel migration checks
+[16:30:41.747] [DEBUG] End of addon-storysource-code-panel migration checks
+[16:30:41.747] [DEBUG] Running initial-globals migration checks
+[16:30:41.765] [DEBUG] End of initial-globals migration checks
+[16:30:41.765] [DEBUG] Running addon-a11y-addon-test migration checks
+[16:30:41.765] [DEBUG] End of addon-a11y-addon-test migration checks
+[16:30:41.766] [DEBUG] Running consolidated-imports migration checks
+[16:30:41.767] [DEBUG] End of consolidated-imports migration checks
+[16:30:41.767] [DEBUG] Running addon-experimental-test migration checks
+[16:30:41.767] [DEBUG] Getting installed version for @storybook/experimental-addon-test...
+[16:30:58.286] [DEBUG] An issue occurred while trying to find dependencies metadata using npm.
+[16:30:58.287] [DEBUG] End of addon-experimental-test migration checks
+[16:30:58.287] [DEBUG] Running rnstorybook-config migration checks
+[16:30:58.294] [DEBUG] End of rnstorybook-config migration checks
+[16:30:58.294] [DEBUG] Running remove-addon-interactions migration checks
+[16:30:58.294] [DEBUG] End of remove-addon-interactions migration checks
+[16:30:58.294] [DEBUG] Running renderer-to-framework migration checks
+[16:30:58.295] [DEBUG] End of renderer-to-framework migration checks
+[16:30:58.295] [DEBUG] Running remove-essential-addons migration checks
+[16:30:58.295] [DEBUG] End of remove-essential-addons migration checks
+[16:30:58.295] [DEBUG] Running addon-a11y-parameters migration checks
+[16:30:58.295] [DEBUG] End of addon-a11y-parameters migration checks
+[16:30:58.296] [DEBUG] Running remove-docs-autodocs migration checks
+[16:30:58.299] [DEBUG] End of remove-docs-autodocs migration checks
+[16:30:58.299] [DEBUG] Running wrap-require migration checks
+[16:30:58.302] [DEBUG] End of wrap-require migration checks
+[16:30:58.302] [INFO] 
+[16:30:58.303] [INFO] Successful migrations:
+
+eslintPlugin
+
+─────────────────────────────────────────────────
+
+If you'd like to run the migrations again, you can do so by running 'npx storybook automigrate'
+
+The automigrations try to migrate common patterns in your project, but might not contain everything needed to migrate to the latest version of Storybook.
+
+Please check the changelog and migration guide for manual migrations and more information: https://storybook.js.org/docs/migration-guide
+And reach out on Discord if you need help: https://discord.gg/storybook
+[16:30:58.306] [INFO] 
+[16:30:58.306] [INFO] Installing dependencies...
+[16:30:58.306] [INFO] install-dependencies-task-start: Installing dependencies...
+[16:30:58.308] [INFO] Checking the health of your Storybook..
+[16:30:58.309] [DEBUG] Getting Storybook info...
+[16:30:58.309] [DEBUG] Loading main config...
+[16:30:58.318] [DEBUG] Getting stories paths...
+[16:30:58.319] [DEBUG] Getting package manager...
+[16:30:58.319] [DEBUG] Getting Storybook version...
+[16:31:16.695] [DEBUG] An issue occurred while trying to find dependencies metadata using npm.
+[16:31:16.696] [WARN] .storybook: 1 issue found
+[16:31:16.696] [INFO] The "storybook" package was not found in your package.json.
+Installing "storybook" as a direct dev dependency in your package.json is required.
+[16:31:16.702] [INFO] install-dependencies-task: ╭ Missing Storybook Dependency
+───────────────────────────────────────────────────────────╮
+│
+│
+│   The "storybook" package was not found in your package.json.
+│
+│   Installing "storybook" as a direct dev dependency in your package.json is
+required.   │
+│
+│
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+[16:31:16.702] [INFO] Storybook doctor is complete!
+[16:31:16.703] [INFO] You can always recheck the health of your project(s) by running:
+npx storybook doctor
